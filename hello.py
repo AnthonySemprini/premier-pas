@@ -49,3 +49,29 @@ else:
     print("nombre pair")
 
 # les fonctions
+
+def multi(a,b):
+    return a * b
+
+resultat = multi(5,9)
+
+print(resultat)
+
+# les collections
+
+jours = "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"
+
+i = 0
+for jour in jours:
+    print(i, jour)
+    i += 1
+
+#or
+
+for i in range(len(jours)):
+    print(i, jours[i])
+
+#or
+
+for i, jour in enumerate(jours,start = 1):
+    print(i, jour)
