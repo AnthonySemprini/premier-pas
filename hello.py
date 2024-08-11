@@ -1,6 +1,6 @@
 print("hello world!")
 
-# Variables et types
+# cree les variables
 
 nom = "Tony"
 age = "32"
@@ -27,4 +27,25 @@ print("sous result : ",sous)
 print("div result : ",div)
 print("multi result : ",multi)
 
+# les boucles
 
+for i in range(5):
+    print("repetition", i)
+
+# les conditions
+
+age = 32
+
+if age >= 18:
+    print("Tu es majeur!!!")
+else:
+    print("Tu est mineur!!!")
+
+nombre = 31
+
+if nombre %2:
+    print("nombre impair")
+else:
+    print("nombre pair")
+
+# les fonctions
